@@ -4,9 +4,10 @@ export const ServicesContainer = styled.div`
 height: 800px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 background: #010606;
+padding-top:50px;
 
 @media screen and (max-width: 768px){
     height: 1100px;
@@ -20,7 +21,7 @@ background: #010606;
 export const ServicesWrapper= styled.div`
 max-width: 1000px;
 margin: 0 auto;
-margin-left: 220px;
+
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
@@ -40,7 +41,8 @@ padding: 0 50px;
 export const ServicesCard = styled.div`
 background: #fff;
 display: flex;
-flex-direction: flex-start;
+flex-direction: column;
+justify-content: flex-start;
 align-items: center;
 border-radius: 10px;
 max-height: 340px;
